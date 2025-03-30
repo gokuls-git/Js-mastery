@@ -150,3 +150,9 @@ fetchData.then((data) => console.log("Final Data:", data));
 //   return n % 2 == 0 ? n : 2 * n;
 // };
 // console.log(smallestEvenMultiple(5));
+
+// const arr = [34,45,67,8,9]
+// console.log(arr.sort((a,b)=> a-b));
+
+// [];
+// console.log([] === false);
