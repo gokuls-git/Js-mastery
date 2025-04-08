@@ -94,20 +94,20 @@
 //   .catch((err) => {
 //     console.log(`${err}`);
 //   });
-const fetchData = new Promise((resolve, reject) => {
-  fetch("http://cat-fact.herokuapp.com/facts")
-    .then((response) => response.json()) // Return the JSON parsing promise
-    .then((data) => {
-      console.log("Fetched data:", data);
-      resolve(data); // Resolve the outer promise with data
-    })
-    .catch((error) => {
-      console.error("Error:", error);
-      reject(error); // Reject on error
-    });
-});
+// const fetchData = new Promise((resolve, reject) => {
+//   fetch("http://cat-fact.herokuapp.com/facts")
+//     .then((response) => response.json()) // Return the JSON parsing promise
+//     .then((data) => {
+//       console.log("Fetched data:", data);
+//       resolve(data); // Resolve the outer promise with data
+//     })
+//     .catch((error) => {
+//       console.error("Error:", error);
+//       reject(error); // Reject on error
+//     });
+// });
 
-fetchData.then((data) => console.log("Final Data:", data));
+// fetchData.then((data) => console.log("Final Data:", data));
 //   .then((data) => console.log("Fetched data:", data))
 //   .catch((error) => console.error("Error:", error));
 
@@ -156,3 +156,53 @@ fetchData.then((data) => console.log("Final Data:", data));
 
 // [];
 // console.log([] === false);
+
+// const getConcate = function (nums) {
+//   const n = nums.length;
+//   const ans = new Array(2 * n);
+
+//   for (let i = 0; i < n; i++) {
+//     ans[i] = nums[i];
+//     ans[n + i] = nums[i];
+//   }
+//   return ans;
+// };
+
+// console.log(getConcate([1, 2, 3]));
+
+// // smallest even multiple
+
+// function smallestEvenMultiple(n) {
+//   return n % 2 === 0 ? n : 2 * n;
+// }
+
+// console.log(smallestEvenMultiple(9));
+
+// // remove duplicate from array
+
+// arr = [1, 2, 2, 3, 4, 4, 5];
+
+// const filteredArray = arr.filter((item, index) => arr.indexOf(item) === index);
+
+// console.log(filteredArray);
+
+// // Pure Functions
+
+// function sum(a, b) {
+//   return a + b;
+// }
+// console.log(sum(2, 3));
+
+// // impure Functions
+// let a = 0;
+// function double(value) {
+//   return (a += value);
+// }
+
+// console.log(double(2));
+// console.log(double(2));
+
+// const string = "Hello";
+// const reversed = string.split("").reverse().join("");
+// console.log(reversed);
+
