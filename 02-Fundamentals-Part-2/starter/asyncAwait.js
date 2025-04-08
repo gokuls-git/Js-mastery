@@ -54,17 +54,48 @@
 
 // fetchData();
 
-const fetchData = async () => {
-  try {
-    const response = await fetch("https://jsonplaceholder.typicode.com/users");
-    if (!response.ok) {
-      throw new Error("Error");
-    }
-    const data = await response.json();
-    console.log("Data:", data);
-  } catch {
-    console.log("Error");
-  }
-};
+// const fetchData = async () => {
+//   try {
+//     const response = await fetch("https://jsonplaceholder.typicode.com/users");
+//     if (!response.ok) {
+//       throw new Error("Error");
+//     }
+//     const data = await response.json();
+//     console.log("Data:", data);
+//   } catch {
+//     console.log("Error");
+//   }
+// };
 
-fetchData();
+// fetchData();
+
+// const array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const doubleArray = array.map((item, i) => item * 2);
+
+// console.log("doubled :", doubleArray);
+
+// filter Even ----
+
+// const filterArray = array.filter((item, i) => item % 2 === 0);
+// console.log("filtered array :", filterArray);
+
+// for (let i = 0; i < 10; i++) {
+//   setTimeout(() => {
+//     console.log("Seconds :", i);
+//   }, i * 1000);
+// }
+
+// console.log(a);
+// console.log(b);
+// var a = (b = 5);
+// -------
+// var a = 5;
+// console.log(a++);
+// console.log(a);
+
+// const arr = [34, 45, 67, 8, 9];
+// const sortedArray = arr.sort((a, b) => a - b);
+// console.log("Sorted :", sortedArray);
+
+// [];
+// console.log([] === false);

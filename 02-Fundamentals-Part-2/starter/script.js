@@ -132,6 +132,7 @@
 
 // foo.call({ name: "gokul" });
 
+// LeetCode---
 // function getConcate(nums) {
 //   const n = nums.length;
 //   const ans = new Array(2 * n);
@@ -144,6 +145,8 @@
 // }
 
 // getConcate([1, 2, 3]);
+
+// Leet code--
 
 // var smallestEvenMultiple = function (n) {
 //   console.log(n % 2);
@@ -205,4 +208,3 @@
 // const string = "Hello";
 // const reversed = string.split("").reverse().join("");
 // console.log(reversed);
-
